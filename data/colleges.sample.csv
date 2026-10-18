@@ -1,0 +1,2 @@
+id,officialName,state,district,city,address,institutionType,typeGroup,branches,tuitionFee,feeYear,hostelAvailable,hostelFee,websiteUrl,affiliation,accreditation,sourceUrls,dataStatus
+sample-demo-1,Sample Institute of Technology,Andhra Pradesh,Krishna,Machilipatnam,Machilipatnam,Private,private,CSE|AIML|ECE,65000,Demo illustrative year,Yes,40000,https://example.edu,JNTUK,,https://eapcet-sche.aptonline.in/EAPCET/collegeMaster,Demo Data
