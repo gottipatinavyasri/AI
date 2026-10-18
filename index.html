@@ -2,19 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-<<<<<<< HEAD
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>EduPath AI — Find the Right College. Build the Right Future.</title>
-  <meta name="description" content="Premium family decision-support platform for engineering college discovery in Andhra Pradesh. District search, explainable recommendations, comparison, and affordability planning.">
+
+  <meta name="description" content="Discover engineering colleges in Andhra Pradesh, compare colleges, get recommendations, and plan affordability.">
+
   <meta name="theme-color" content="#0d2b1d">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+
+  <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
+
   <a class="skip-link" href="#app">Skip to content</a>
+
   <header class="site-header">
+
     <a class="brand" href="#/" aria-label="EduPath AI home">
       <span class="brand-mark">E</span>
       <span>
@@ -22,6 +31,7 @@
         <span>One Decision. Two Perspectives.</span>
       </span>
     </a>
+
     <nav class="nav-links" aria-label="Primary">
       <a href="#/" data-nav="home">Home</a>
       <a href="#/explore" data-nav="explore">Colleges</a>
@@ -33,8 +43,13 @@
       <a href="#/about" data-nav="about">About</a>
       <button class="nav-btn nav-cta" id="tryDemoNav" type="button">Try Demo</button>
     </nav>
-    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu">Menu</button>
+
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu">
+      Menu
+    </button>
+
   </header>
+
   <nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
     <a href="#/" data-nav="home">Home</a>
     <a href="#/explore" data-nav="explore">Explore Colleges by District</a>
@@ -45,41 +60,26 @@
     <a href="#/shortlist" data-nav="shortlist">Shortlist</a>
     <a href="#/about" data-nav="about">About & Data Sources</a>
   </nav>
+
   <main id="app"></main>
+
   <footer class="site-footer">
     <div class="wrap">
       <strong>EduPath AI</strong> — Find the Right College. Build the Right Future.
       <p>Demo records are labelled. Saved shortlists, family notes, and imports stay in this browser only.</p>
     </div>
   </footer>
+
   <div id="toast" class="toast" hidden role="status"></div>
 
-  <script src="js/data/districts.js"></script>
-  <script src="js/data/colleges.js"></script>
-  <script src="js/lib/helpers.js"></script>
-  <script src="js/lib/filter.js"></script>
-  <script src="js/lib/recommend.js"></script>
-  <script src="js/lib/import.js"></script>
-  <script src="js/lib/storage.js"></script>
-  <script src="js/app.js"></script>
-=======
-  <title>EduPath AI logic tests</title>
-  <style>
-    body { font-family: sans-serif; background: #fbf8f1; color: #1c241e; padding: 24px; }
-    #summary { font-weight: 700; margin-bottom: 12px; }
-  </style>
-</head>
-<body>
-  <h1>EduPath AI logic tests</h1>
-  <div id="summary"></div>
-  <div id="out"></div>
-  <script src="../js/data/districts.js"></script>
-  <script src="../js/data/colleges.js"></script>
-  <script src="../js/lib/helpers.js"></script>
-  <script src="../js/lib/filter.js"></script>
-  <script src="../js/lib/recommend.js"></script>
-  <script src="../js/lib/import.js"></script>
-  <script src="logic-tests.js"></script>
->>>>>>> 2d0f936e77e86d8eb3db4ca2acf97e0d0a5ff498
+  <script src="./js/data/districts.js"></script>
+  <script src="./js/data/colleges.js"></script>
+  <script src="./js/lib/helpers.js"></script>
+  <script src="./js/lib/filter.js"></script>
+  <script src="./js/lib/recommend.js"></script>
+  <script src="./js/lib/import.js"></script>
+  <script src="./js/lib/storage.js"></script>
+  <script src="./js/app.js"></script>
+
 </body>
 </html>
